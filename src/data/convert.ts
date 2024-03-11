@@ -114,14 +114,19 @@ const players: Array<Player> = columns.map((column, playerId) => {
 
   const predictions: Predictions = {};
 
-  races.forEach((race, i) => {
-    const raceCount = i + 1;
+  let currentRow = 3;
 
-    const pole = sheet[`${column}${5 * raceCount - 1}`]?.v ?? null;
-    const first = sheet[`${column}${5 * raceCount}`]?.v ?? null;
-    const fastestPitStop = sheet[`${column}${5 * raceCount + 1}`]?.v;
-    const fastestLap = sheet[`${column}${5 * raceCount + 2}`]?.v ?? null;
-    const last = sheet[`${column}${5 * raceCount + 3}`]?.v ?? null;
+  races.forEach((race) => {
+    // returns the value of the row and increments the counter
+    // so that the next getRowValue() call gets the next row
+    const getRowValue = <T extends DriverName | TeamName>(): T | null =>
+      sheet[`${column}${++currentRow}`]?.v ?? null;
+
+    const pole = getRowValue<DriverName>();
+    const first = getRowValue<DriverName>();
+    const fastestPitStop = getRowValue<TeamName>();
+    const fastestLap = getRowValue<DriverName>();
+    const last = getRowValue<DriverName>();
 
     predictions[race.id] = {
       racePrediction: {
@@ -132,6 +137,16 @@ const players: Array<Player> = columns.map((column, playerId) => {
         last: getDriverId(last),
       },
     };
+
+    if (race.sprintResult) {
+      const pole = getRowValue<DriverName>();
+      const first = getRowValue<DriverName>();
+
+      predictions[race.id].sprintRacePrediction = {
+        pole: getDriverId(pole),
+        first: getDriverId(first),
+      };
+    }
   });
 
   return {

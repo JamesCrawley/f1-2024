@@ -50,6 +50,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -59,6 +60,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -104,6 +106,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -176,6 +179,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -194,6 +198,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -212,6 +217,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -273,6 +279,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -282,6 +289,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -327,6 +335,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -399,6 +408,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -417,6 +427,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -435,6 +446,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -496,6 +508,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -505,6 +518,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -550,6 +564,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -622,6 +637,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -640,6 +656,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -658,6 +675,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -719,6 +737,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -728,6 +747,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -773,6 +793,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -845,6 +866,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -863,6 +885,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -881,6 +904,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -942,6 +966,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -951,6 +976,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -996,6 +1022,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -1068,6 +1095,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -1086,6 +1114,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -1104,6 +1133,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -1165,6 +1195,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -1174,6 +1205,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -1219,6 +1251,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -1291,6 +1324,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -1309,6 +1343,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -1327,6 +1362,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -1388,6 +1424,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -1397,6 +1434,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -1442,6 +1480,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -1514,6 +1553,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -1532,6 +1572,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -1550,6 +1591,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -1611,6 +1653,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -1620,6 +1663,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -1665,6 +1709,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -1737,6 +1782,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -1755,6 +1801,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -1773,6 +1820,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -1834,6 +1882,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -1843,6 +1892,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -1888,6 +1938,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -1960,6 +2011,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -1978,6 +2030,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -1996,6 +2049,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -2057,6 +2111,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -2066,6 +2121,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -2111,6 +2167,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -2183,6 +2240,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -2201,6 +2259,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -2219,6 +2278,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -2280,6 +2340,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -2289,6 +2350,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -2334,6 +2396,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -2406,6 +2469,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -2424,6 +2488,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -2442,6 +2507,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -2503,6 +2569,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -2512,6 +2579,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -2557,6 +2625,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -2629,6 +2698,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -2647,6 +2717,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -2665,6 +2736,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -2726,6 +2798,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -2735,6 +2808,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -2780,6 +2854,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -2852,6 +2927,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -2870,6 +2946,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -2888,6 +2965,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -2949,6 +3027,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -2958,6 +3037,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -3003,6 +3083,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -3075,6 +3156,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -3093,6 +3175,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -3111,6 +3194,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -3172,6 +3256,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -3181,6 +3266,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -3226,6 +3312,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -3298,6 +3385,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -3316,6 +3404,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -3334,6 +3423,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -3395,6 +3485,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -3404,6 +3495,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -3449,6 +3541,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -3521,6 +3614,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -3539,6 +3633,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -3557,6 +3652,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
@@ -3618,6 +3714,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "6": {
         racePrediction: {
@@ -3627,6 +3724,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "7": {
         racePrediction: {
@@ -3672,6 +3770,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "12": {
         racePrediction: {
@@ -3744,6 +3843,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "20": {
         racePrediction: {
@@ -3762,6 +3862,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "22": {
         racePrediction: {
@@ -3780,6 +3881,7 @@ export const players: Player[] = [
           fastestLap: null,
           last: null,
         },
+        sprintRacePrediction: { pole: null, first: null },
       },
       "24": {
         racePrediction: {
