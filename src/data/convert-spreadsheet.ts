@@ -597,18 +597,27 @@ players.forEach((player, playerIndex) => {
   Object.entries(player.predictions).forEach(([raceId, predictions]) => {
     let pointsForRace = 0;
 
+    const pointsToAdd: Record<keyof RacePrediction, number> = {
+      pole: 5,
+      first: 5,
+      fastestPitStop: 5,
+      fastestLap: 10,
+      last: 10,
+    };
+
     const { result, sprintRaceResult } = races.find(
       (race) => race.id.toString() === raceId,
     ) as Race;
 
     Object.entries(predictions.racePrediction).forEach(
       ([key, racePrediction]) => {
-        const res = result[key as keyof RacePrediction];
+        const predictionType = key as keyof RacePrediction;
+        const res = result[predictionType];
 
         if (!res) return;
 
         if (res === racePrediction) {
-          pointsForRace += 5;
+          pointsForRace += pointsToAdd[predictionType];
         }
       },
     );
@@ -619,12 +628,13 @@ players.forEach((player, playerIndex) => {
     if (predictions.sprintRacePrediction && sprintRaceResult) {
       Object.entries(predictions.sprintRacePrediction).forEach(
         ([key, sprintRacePrediction]) => {
-          const res = sprintRaceResult[key as keyof SprintRacePrediction];
+          const predictionType = key as keyof SprintRacePrediction;
+          const res = sprintRaceResult[predictionType];
 
           if (!res) return;
 
           if (res === sprintRacePrediction) {
-            points += 5;
+            points += pointsToAdd[predictionType];
           }
         },
       );

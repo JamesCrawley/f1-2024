@@ -6,22 +6,33 @@ import { races } from "@/data/races";
 
 const RacesPage: FC = () => {
   return (
-    <Stack p={4} rowGap={4}>
-      <Typography mx="auto" variant="lg">
-        Races
-      </Typography>
+    <Stack px={2}>
+      <Stack
+        bgcolor="white"
+        position="sticky"
+        pt={2}
+        rowGap={2}
+        top={0}
+        zIndex={1}
+      >
+        <Typography mx="auto" variant="lg">
+          Races
+        </Typography>
 
-      <Divider />
+        <Divider />
+      </Stack>
 
-      <Stack rowGap={2}>
+      <Stack divider={<Divider />}>
         {races.map(({ id, name, circuitName, status }) => {
           return (
-            <Stack key={id}>
+            <Stack key={id} py={2}>
               <Typography>{name}</Typography>
 
-              <Typography>{circuitName}</Typography>
+              <Stack>
+                <Typography variant="sm">{circuitName}</Typography>
 
-              <Typography>{status}</Typography>
+                <Typography variant="sm">{status}</Typography>
+              </Stack>
             </Stack>
           );
         })}

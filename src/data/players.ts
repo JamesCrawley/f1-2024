@@ -462,7 +462,7 @@ export const players: Array<Player> = [
   {
     id: 3,
     name: "Cam Burgess",
-    points: 25,
+    points: 40,
     predictions: {
       "1": {
         racePrediction: {
@@ -691,7 +691,7 @@ export const players: Array<Player> = [
   {
     id: 4,
     name: "Chloe Freer",
-    points: 25,
+    points: 30,
     predictions: {
       "1": {
         racePrediction: {
@@ -920,7 +920,7 @@ export const players: Array<Player> = [
   {
     id: 5,
     name: "Harrison Reeve",
-    points: 25,
+    points: 40,
     predictions: {
       "1": {
         racePrediction: {
@@ -1378,7 +1378,7 @@ export const players: Array<Player> = [
   {
     id: 7,
     name: "James Crawley",
-    points: 30,
+    points: 35,
     predictions: {
       "1": {
         racePrediction: {
@@ -1607,7 +1607,7 @@ export const players: Array<Player> = [
   {
     id: 8,
     name: "El May",
-    points: 20,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -2065,7 +2065,7 @@ export const players: Array<Player> = [
   {
     id: 10,
     name: "Luke Reeves",
-    points: 30,
+    points: 35,
     predictions: {
       "1": {
         racePrediction: {
@@ -2294,7 +2294,7 @@ export const players: Array<Player> = [
   {
     id: 11,
     name: "Fin Tapp",
-    points: 30,
+    points: 35,
     predictions: {
       "1": {
         racePrediction: {
@@ -2523,7 +2523,7 @@ export const players: Array<Player> = [
   {
     id: 12,
     name: "Sam Cartledge",
-    points: 30,
+    points: 40,
     predictions: {
       "1": {
         racePrediction: {
@@ -2981,7 +2981,7 @@ export const players: Array<Player> = [
   {
     id: 14,
     name: "Scott Benninson",
-    points: 20,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -3210,7 +3210,7 @@ export const players: Array<Player> = [
   {
     id: 15,
     name: "Ollie McCann",
-    points: 20,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -3439,7 +3439,7 @@ export const players: Array<Player> = [
   {
     id: 16,
     name: "Owen Millet",
-    points: 25,
+    points: 30,
     predictions: {
       "1": {
         racePrediction: {
@@ -3668,7 +3668,7 @@ export const players: Array<Player> = [
   {
     id: 17,
     name: "Matt Watson",
-    points: 30,
+    points: 35,
     predictions: {
       "1": {
         racePrediction: {
