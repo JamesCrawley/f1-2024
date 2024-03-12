@@ -1836,7 +1836,7 @@ export const players: Array<Player> = [
   {
     id: 9,
     name: "Louie Cochrane",
-    points: 20,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -1851,9 +1851,9 @@ export const players: Array<Player> = [
         racePrediction: {
           pole: "maxVerstappen",
           first: "maxVerstappen",
-          fastestPitStop: "mclaren",
-          fastestLap: "georgeRussell",
-          last: "kevinMagnussen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "estebanOcon",
         },
       },
       "3": {
