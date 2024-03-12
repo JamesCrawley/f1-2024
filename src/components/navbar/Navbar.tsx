@@ -3,12 +3,7 @@
 import type { FC } from "react";
 
 import { CalendarMonth, FormatListNumbered } from "@mui/icons-material";
-import {
-  BottomNavigation,
-  BottomNavigationAction,
-  Paper,
-  Typography,
-} from "@mui/material";
+import { BottomNavigation, BottomNavigationAction, Paper } from "@mui/material";
 import { useRouter } from "next/navigation";
 
 export const Navbar: FC = () => {
