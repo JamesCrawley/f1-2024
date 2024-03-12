@@ -10,7 +10,7 @@ export const Navbar: FC = () => {
   const router = useRouter();
 
   return (
-    <Paper square elevation={2} sx={{ py: 2 }} variant="outlined">
+    <Paper square elevation={2} variant="outlined">
       <BottomNavigation
         showLabels
         onChange={(_, newValue) => {
