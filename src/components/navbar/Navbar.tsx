@@ -2,15 +2,20 @@
 
 import type { FC } from "react";
 
-import { FormatListNumbered, Leaderboard } from "@mui/icons-material";
-import { BottomNavigation, BottomNavigationAction, Paper } from "@mui/material";
+import { CalendarMonth, FormatListNumbered } from "@mui/icons-material";
+import {
+  BottomNavigation,
+  BottomNavigationAction,
+  Paper,
+  Typography,
+} from "@mui/material";
 import { useRouter } from "next/navigation";
 
 export const Navbar: FC = () => {
   const router = useRouter();
 
   return (
-    <Paper elevation={4} sx={{ py: 1 }}>
+    <Paper square elevation={2} sx={{ py: 2 }} variant="outlined">
       <BottomNavigation
         showLabels
         onChange={(_, newValue) => {
@@ -18,13 +23,15 @@ export const Navbar: FC = () => {
         }}
       >
         <BottomNavigationAction
-          icon={<Leaderboard />}
+          icon={<FormatListNumbered />}
           label="Leaderboard"
           value="/leaderboard"
-        />
+        >
+          hello
+        </BottomNavigationAction>
 
         <BottomNavigationAction
-          icon={<FormatListNumbered />}
+          icon={<CalendarMonth />}
           label="Races"
           value="/races"
         />
