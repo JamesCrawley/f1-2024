@@ -16,9 +16,12 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
             display="grid"
             gridTemplateRows="1fr auto"
             height="100dvh"
+            maxWidth="600px"
+            // justifyContent="center"
+            mx="auto"
             overflow="hidden"
           >
-            <Stack flex={1} maxWidth="600px" overflow="hidden">
+            <Stack flex={1} overflow="hidden">
               {children}
             </Stack>
 
