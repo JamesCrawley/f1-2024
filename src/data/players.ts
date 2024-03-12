@@ -3210,7 +3210,7 @@ export const players: Player[] = [
   {
     id: 14,
     name: "Ollie McCann",
-    points: 0,
+    points: 20,
     predictions: {
       "1": {
         racePrediction: {
@@ -3439,7 +3439,7 @@ export const players: Player[] = [
   {
     id: 15,
     name: "Owen Millet",
-    points: 0,
+    points: 40,
     predictions: {
       "1": {
         racePrediction: {
@@ -3668,7 +3668,7 @@ export const players: Player[] = [
   {
     id: 16,
     name: "Matt Watson",
-    points: 0,
+    points: 30,
     predictions: {
       "1": {
         racePrediction: {

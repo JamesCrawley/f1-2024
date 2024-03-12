@@ -1,11 +1,17 @@
 import type { FC } from "react";
 
-import { Divider, Stack, Typography } from "@mui/material";
+import { Box, Divider, Stack, Typography } from "@mui/material";
 import groupBy from "object.groupby";
 
 import { RacesProgress } from "@/components/races-progress";
 import { players } from "@/data/players";
 import { getOrdinal } from "@/utils";
+
+const colors = {
+  gold: "#c9b037",
+  silver: "#b4b4b4",
+  bronze: "#ad8a56",
+} as const;
 
 const LeaderboardPage: FC = () => {
   const groupedPlayers = groupBy(players, ({ points }) => points);
@@ -35,23 +41,25 @@ const LeaderboardPage: FC = () => {
         <Divider />
       </Stack>
 
-      <Stack py={2}>
+      <Stack divider={<Divider />}>
         {sortedGroupedPlayers.map(({ points, players }, position) => {
+          const color =
+            [colors.gold, colors.silver, colors.bronze][position] ?? "initial";
+
           return (
             <Stack
               key={points}
               alignItems="center"
-              bgcolor={position % 2 === 0 ? "#e9ecef" : "none"}
-              borderRadius={4}
+              color={color}
               columnGap={2}
               direction="row"
-              p={2}
+              py={2}
             >
-              <Typography variant="lg">
-                {++position}
+              <Box>
+                <Typography variant="lg">{++position}</Typography>
 
                 <Typography variant="sm">{getOrdinal(position)}</Typography>
-              </Typography>
+              </Box>
 
               <Stack flex={1} rowGap={1}>
                 {players.map(({ id, name }) => (
@@ -61,7 +69,7 @@ const LeaderboardPage: FC = () => {
                 ))}
               </Stack>
 
-              <Stack alignItems="center">
+              <Stack alignItems="center" fontWeight="bold">
                 <Typography variant="lg">{points}</Typography>
 
                 <Typography variant="sm"> points</Typography>
