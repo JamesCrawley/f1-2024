@@ -8,6 +8,7 @@
   "bracketSpacing": true,
   "semi": true,
   "overrides": [{
-    "excludeFiles": "/src/*/*.js"
+    "excludeFiles": "/src/*/*.js",
+    "files": "*.ts"
   }]
 }

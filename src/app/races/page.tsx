@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 import { Divider, Stack, Typography } from "@mui/material";
 
-import { races } from "@/constants";
+import { races } from "@/data/races";
 
 const RacesPage: FC = () => {
   return (

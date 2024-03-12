@@ -2,7 +2,7 @@ import type { FC } from "react";
 
 import { Stack, Typography, LinearProgress } from "@mui/material";
 
-import { races } from "@/constants";
+import { races } from "@/data/races";
 
 export const RacesProgress: FC = () => {
   const numCompletedRaces = races.filter(

@@ -1,10 +1,10 @@
-import type { Player } from "@/types";
+import type { Player } from "@/data/types";
 
-export const players: Player[] = [
+export const players: Array<Player> = [
   {
-    id: 0,
+    id: 1,
     name: "Aaron Robertson",
-    points: 25,
+    points: 20,
     predictions: {
       "1": {
         racePrediction: {
@@ -231,9 +231,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 1,
+    id: 2,
     name: "Alex Withero",
-    points: 20,
+    points: 15,
     predictions: {
       "1": {
         racePrediction: {
@@ -460,9 +460,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 2,
+    id: 3,
     name: "Cam Burgess",
-    points: 15,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -689,9 +689,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 3,
+    id: 4,
     name: "Chloe Freer",
-    points: 15,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -918,9 +918,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 4,
+    id: 5,
     name: "Harrison Reeve",
-    points: 40,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -1147,9 +1147,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 5,
+    id: 6,
     name: "James Robinson",
-    points: 0,
+    points: 20,
     predictions: {
       "1": {
         racePrediction: {
@@ -1376,9 +1376,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 6,
+    id: 7,
     name: "James Crawley",
-    points: 40,
+    points: 30,
     predictions: {
       "1": {
         racePrediction: {
@@ -1605,9 +1605,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 7,
+    id: 8,
     name: "El May",
-    points: 0,
+    points: 20,
     predictions: {
       "1": {
         racePrediction: {
@@ -1834,9 +1834,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 8,
+    id: 9,
     name: "Louie Cochrane",
-    points: 0,
+    points: 20,
     predictions: {
       "1": {
         racePrediction: {
@@ -2063,9 +2063,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 9,
+    id: 10,
     name: "Luke Reeves",
-    points: 0,
+    points: 30,
     predictions: {
       "1": {
         racePrediction: {
@@ -2292,9 +2292,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 10,
+    id: 11,
     name: "Fin Tapp",
-    points: 0,
+    points: 30,
     predictions: {
       "1": {
         racePrediction: {
@@ -2521,9 +2521,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 11,
+    id: 12,
     name: "Sam Cartledge",
-    points: 0,
+    points: 30,
     predictions: {
       "1": {
         racePrediction: {
@@ -2750,9 +2750,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 12,
+    id: 13,
     name: "Matt Hyett",
-    points: 15,
+    points: 20,
     predictions: {
       "1": {
         racePrediction: {
@@ -2979,9 +2979,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 13,
+    id: 14,
     name: "Scott Benninson",
-    points: 0,
+    points: 20,
     predictions: {
       "1": {
         racePrediction: {
@@ -3208,7 +3208,7 @@ export const players: Player[] = [
     },
   },
   {
-    id: 14,
+    id: 15,
     name: "Ollie McCann",
     points: 20,
     predictions: {
@@ -3437,9 +3437,9 @@ export const players: Player[] = [
     },
   },
   {
-    id: 15,
+    id: 16,
     name: "Owen Millet",
-    points: 40,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -3666,7 +3666,7 @@ export const players: Player[] = [
     },
   },
   {
-    id: 16,
+    id: 17,
     name: "Matt Watson",
     points: 30,
     predictions: {
