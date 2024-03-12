@@ -11,8 +11,10 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <html lang="en">
       <ThemeProvider>
-        <Stack component="body" height="100vh">
-          <Box flex={1}>{children}</Box>
+        <Stack component="body" height="100vh" overflow="none">
+          <Box flex={1} overflow="auto">
+            {children}
+          </Box>
 
           <Navbar />
         </Stack>

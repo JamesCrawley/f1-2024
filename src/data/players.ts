@@ -1,10 +1,10 @@
-import type { Player } from "../types";
+import type { Player } from "@/types";
 
 export const players: Player[] = [
   {
     id: 0,
     name: "Aaron Robertson",
-    points: 0,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -233,7 +233,7 @@ export const players: Player[] = [
   {
     id: 1,
     name: "Alex Withero",
-    points: 0,
+    points: 20,
     predictions: {
       "1": {
         racePrediction: {
@@ -462,7 +462,7 @@ export const players: Player[] = [
   {
     id: 2,
     name: "Cam Burgess",
-    points: 0,
+    points: 15,
     predictions: {
       "1": {
         racePrediction: {
@@ -691,7 +691,7 @@ export const players: Player[] = [
   {
     id: 3,
     name: "Chloe Freer",
-    points: 0,
+    points: 15,
     predictions: {
       "1": {
         racePrediction: {
@@ -920,7 +920,7 @@ export const players: Player[] = [
   {
     id: 4,
     name: "Harrison Reeve",
-    points: 0,
+    points: 40,
     predictions: {
       "1": {
         racePrediction: {
@@ -1378,7 +1378,7 @@ export const players: Player[] = [
   {
     id: 6,
     name: "James Crawley",
-    points: 0,
+    points: 40,
     predictions: {
       "1": {
         racePrediction: {
@@ -2752,7 +2752,7 @@ export const players: Player[] = [
   {
     id: 12,
     name: "Matt Hyett",
-    points: 0,
+    points: 15,
     predictions: {
       "1": {
         racePrediction: {

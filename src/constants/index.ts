@@ -297,7 +297,7 @@ export const races: Array<Race> = [
     circuitName: "Jeddah Corniche Circuit",
     date: new Date("2024-03-09"),
     country: countries.saudiArabia,
-    status: "inProgress",
+    status: "completed",
     result: {
       pole: null,
       first: null,

@@ -9,7 +9,7 @@ import type { Components } from "@mui/material";
 
 export const MuiTypography: Components["MuiTypography"] = {
   defaultProps: {
-    variant: "sm",
+    variant: "md",
     fontFamily: "Lato",
     textTransform: "uppercase",
     letterSpacing: 2,
@@ -18,19 +18,25 @@ export const MuiTypography: Components["MuiTypography"] = {
     {
       props: { variant: "sm" },
       style: {
-        fontSize: "1.5rem",
+        fontSize: "1rem",
       },
     },
     {
       props: { variant: "md" },
       style: {
-        fontSize: "3rem",
+        fontSize: "1.5rem",
       },
     },
     {
       props: { variant: "lg" },
       style: {
-        fontSize: "6rem",
+        fontSize: "2rem",
+      },
+    },
+    {
+      props: { variant: "xl" },
+      style: {
+        fontSize: "3.5rem",
       },
     },
   ],
@@ -42,5 +48,6 @@ declare module "@mui/material/Typography" {
     sm: true;
     md: true;
     lg: true;
+    xl: true;
   }
 }

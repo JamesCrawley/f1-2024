@@ -160,7 +160,7 @@ const players: Array<Player> = columns.map((column, playerId) => {
 writeFile(
   "../data/players.ts",
   `
-  import type { Player } from "../types";
+  import type { Player } from "@/types";
 
   export const players: Player[] = ${JSON.stringify(players)}
   `,

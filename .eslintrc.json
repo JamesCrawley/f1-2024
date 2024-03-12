@@ -82,10 +82,10 @@
   "globals": {
     "React": "writable"
   },
-
   "parser": "@typescript-eslint/parser",
   "plugins": ["prettier", "@typescript-eslint"],
   "env": {
     "node": true
-  }
+  },
+  "ignorePatterns": "/src/*/*.js"
 }

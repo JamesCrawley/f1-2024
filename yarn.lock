@@ -517,6 +517,11 @@
   dependencies:
     undici-types "~5.26.4"
 
+"@types/object.groupby@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@types/object.groupby/-/object.groupby-1.0.3.tgz#cded8a6801c990672df60ec6a9b03d8f65c79ea7"
+  integrity sha512-C9QFoqjAaotcb9TIwYz55M5Psit4fP+j05Ro0sO/jeCtaFBJgE8ioqaob2Q82XhAWuNPlm6wtTFvbYa1Hpr11g==
+
 "@types/parse-json@^4.0.0":
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.2.tgz#5950e50960793055845e956c427fc2b0d70c5239"
@@ -2297,7 +2302,7 @@ object.fromentries@^2.0.7:
     define-properties "^1.2.0"
     es-abstract "^1.22.1"
 
-object.groupby@^1.0.1:
+object.groupby@^1.0.1, object.groupby@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/object.groupby/-/object.groupby-1.0.2.tgz#494800ff5bab78fd0eff2835ec859066e00192ec"
   integrity sha512-bzBq58S+x+uo0VjurFT0UktpKHOZmv4/xePiOA1nbB9pMqpGK7rUPNgf+1YC+7mE+0HzhTMqNUuCqvKhj6FnBw==
