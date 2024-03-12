@@ -18,13 +18,13 @@ export const MuiTypography: Components["MuiTypography"] = {
     {
       props: { variant: "sm" },
       style: {
-        fontSize: "1rem",
+        fontSize: "0.5rem",
       },
     },
     {
       props: { variant: "md" },
       style: {
-        fontSize: "1.5rem",
+        fontSize: "1rem",
       },
     },
     {

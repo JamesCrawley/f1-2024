@@ -28,9 +28,9 @@ const RacesPage: FC = () => {
                 <Typography>{name}</Typography>
 
                 <Stack>
-                  <Typography variant="sm">{circuitName}</Typography>
+                  <Typography>{circuitName}</Typography>
 
-                  <Typography variant="sm">{status}</Typography>
+                  <Typography>{status}</Typography>
                 </Stack>
               </Stack>
 

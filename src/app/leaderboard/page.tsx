@@ -22,7 +22,7 @@ const LeaderboardPage: FC = () => {
   return (
     <Stack height="100%">
       <Stack bgcolor="white" pt={2} px={2} rowGap={2}>
-        <Typography mx="auto" py={2} variant="lg">
+        <Typography mx="auto" variant="lg">
           Leaderboard
         </Typography>
 
@@ -47,21 +47,19 @@ const LeaderboardPage: FC = () => {
                 <Box minWidth="50px">
                   <Typography variant="lg">{++position}</Typography>
 
-                  <Typography variant="sm">{getOrdinal(position)}</Typography>
+                  <Typography>{getOrdinal(position)}</Typography>
                 </Box>
 
                 <Stack flex={1} rowGap={1}>
                   {players.map(({ id, name }) => (
-                    <Typography key={id} variant="sm">
-                      {name}
-                    </Typography>
+                    <Typography key={id}>{name}</Typography>
                   ))}
                 </Stack>
 
-                <Stack alignItems="center" fontWeight="bold">
+                <Stack alignItems="center">
                   <Typography variant="lg">{points}</Typography>
 
-                  <Typography variant="sm"> points</Typography>
+                  <Typography> points</Typography>
                 </Stack>
               </Stack>
 

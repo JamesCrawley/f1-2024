@@ -10,17 +10,22 @@ import { ThemeProvider } from "@/components/theme-provider";
 const RootLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <html lang="en">
-      <ThemeProvider>
-        <body>
-          <Box display="grid" gridTemplateRows="1fr auto" height="100vh">
+      <body>
+        <ThemeProvider>
+          <Box
+            display="grid"
+            gridTemplateRows="1fr auto"
+            height="100dvh"
+            overflow="hidden"
+          >
             <Stack flex={1} maxWidth="600px" overflow="hidden">
               {children}
             </Stack>
 
             <Navbar />
           </Box>
-        </body>
-      </ThemeProvider>
+        </ThemeProvider>
+      </body>
     </html>
   );
 };

@@ -13,9 +13,7 @@ export const RacesProgress: FC = () => {
 
   return (
     <Stack rowGap={1}>
-      <Typography textAlign="center" variant="sm">
-        Races Completed
-      </Typography>
+      <Typography textAlign="center">Races Completed</Typography>
 
       <Stack justifyContent="space-around" position="relative">
         <LinearProgress
