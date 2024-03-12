@@ -15,9 +15,8 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => {
           <Box
             display="grid"
             gridTemplateRows="1fr auto"
-            height="100dvh"
+            height="100svh"
             maxWidth="600px"
-            // justifyContent="center"
             mx="auto"
             overflow="hidden"
           >
