@@ -22,7 +22,7 @@ const LeaderboardPage: FC = () => {
   return (
     <Stack height="100%">
       <Stack bgcolor="white" pt={2} px={2} rowGap={2}>
-        <Typography mx="auto" variant="lg">
+        <Typography mx="auto" py={2} variant="lg">
           Leaderboard
         </Typography>
 
