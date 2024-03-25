@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "spreadsheet": "cd src/data && tsc convert-spreadsheet.ts && node convert-spreadsheet.js && prettier --write ../data/players.ts"
+    "spreadsheet": "cd src/data && tsc convert-spreadsheet.ts && node convert-spreadsheet.js && prettier --write ../data/players.ts && prettier --write ../data/races.ts"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
