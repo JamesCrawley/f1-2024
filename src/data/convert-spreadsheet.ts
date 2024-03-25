@@ -534,7 +534,7 @@ const races = baseRaces.map((race) => {
   };
 
   if (updatedRace.result.first) {
-    updatedRace.status === "completed";
+    updatedRace.status = "completed";
   }
 
   if (race.sprintRaceResult) {
@@ -578,7 +578,7 @@ const races = baseRaces.map((race) => {
       players.push({
         id: ++columnIndex,
         name: sheet[`${column}2`].v,
-        points: 0, // TODO:
+        points: 0,
         predictions: {
           [race.id]: weekendPredictions,
         },
