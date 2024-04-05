@@ -43,7 +43,7 @@ export const races: Array<Race> = [
       first: "carlosSainz",
       fastestPitStop: "redBull",
       fastestLap: "charlesLeclerc",
-      last: "georgeRussell",
+      last: "estebanOcon",
     },
   },
   {
