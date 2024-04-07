@@ -1149,7 +1149,7 @@ export const players: Array<Player> = [
   {
     id: 6,
     name: "James Robinson",
-    points: 35,
+    points: 25,
     predictions: {
       "1": {
         racePrediction: {
@@ -2752,7 +2752,7 @@ export const players: Array<Player> = [
   {
     id: 13,
     name: "Matt Hyett",
-    points: 50,
+    points: 35,
     predictions: {
       "1": {
         racePrediction: {
@@ -3668,7 +3668,7 @@ export const players: Array<Player> = [
   {
     id: 17,
     name: "Matt Watson",
-    points: 50,
+    points: 40,
     predictions: {
       "1": {
         racePrediction: {
