@@ -623,7 +623,11 @@ players.forEach((player, playerIndex) => {
     );
 
     // give bonus points for all 5 correct race predictions
-    if (pointsForRace === 25) pointsForRace += 5;
+    if (
+      pointsForRace === Object.values(pointsToAdd).reduce((a, b) => a + b, 0)
+    ) {
+      pointsForRace += 5;
+    }
 
     if (predictions.sprintRacePrediction && sprintRaceResult) {
       Object.entries(predictions.sprintRacePrediction).forEach(
