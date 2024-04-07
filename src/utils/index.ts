@@ -1,3 +1,5 @@
+import type { Country } from "@/data/types";
+
 export const getOrdinal = (n: number): string => {
   let ord = "th";
 
@@ -10,4 +12,57 @@ export const getOrdinal = (n: number): string => {
   }
 
   return ord;
+};
+
+export const getCountryFlag = (id: Country["id"]): string => {
+  switch (id) {
+    case "austria":
+      return "🇦🇹";
+    case "italy":
+      return "🇮🇹";
+    case "germany":
+      return "🇩🇪";
+    case "unitedKingdom":
+      return "🇬🇧";
+    case "switzerland":
+      return "🇨🇭";
+    case "unitedStates":
+      return "🇺🇸";
+    case "france":
+      return "🇫🇷";
+    case "bahrain":
+      return "🇧🇭";
+    case "saudiArabia":
+      return "🇸🇦";
+    case "australia":
+      return "🇦🇺";
+    case "japan":
+      return "🇯🇵";
+    case "china":
+      return "🇨🇳";
+    case "monaco":
+      return "🇲🇨";
+    case "canada":
+      return "🇨🇦";
+    case "spain":
+      return "🇪🇸";
+    case "hungary":
+      return "🇭🇺";
+    case "belgium":
+      return "🇧🇪";
+    case "netherlands":
+      return "🇳🇱";
+    case "azerbaijan":
+      return "🇦🇿";
+    case "singapore":
+      return "🇸🇬";
+    case "mexico":
+      return "🇲🇽";
+    case "brazil":
+      return "🇧🇷";
+    case "qatar":
+      return "🇶🇦";
+    case "abuDhabi":
+      return "🇦🇪";
+  }
 };
