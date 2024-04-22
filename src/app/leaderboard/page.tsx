@@ -17,7 +17,7 @@ const LeaderboardPage: FC = () => {
 
   const sortedGroupedPlayers = Object.entries(groupedPlayers)
     .map(([points, players]) => ({ points, players }))
-    .toSorted((a, b) => (a.points < b.points ? 1 : -1));
+    .toSorted((a, b) => (parseInt(a.points) < parseInt(b.points) ? 1 : -1));
 
   return (
     <Stack height="100%">
