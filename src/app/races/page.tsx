@@ -26,7 +26,7 @@ const RacesPage: FC = () => {
       <Stack overflow="auto" p={2} rowGap={6}>
         {inProgressRace && (
           <Stack>
-            <Typography textAlign="center" variant="lg">
+            <Typography textAlign="center" variant="md">
               Current race
             </Typography>
 
@@ -36,7 +36,7 @@ const RacesPage: FC = () => {
 
         {upcomingRaces.length > 0 && (
           <Stack rowGap={2}>
-            <Typography textAlign="center" variant="lg">
+            <Typography textAlign="center" variant="md">
               Upcoming races
             </Typography>
 
@@ -46,7 +46,7 @@ const RacesPage: FC = () => {
 
         {completedRaces.length > 0 && (
           <Stack rowGap={2}>
-            <Typography textAlign="center" variant="lg">
+            <Typography textAlign="center" variant="md">
               Completed races
             </Typography>
 
