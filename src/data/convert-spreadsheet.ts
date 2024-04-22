@@ -107,7 +107,7 @@ const baseRaces: Array<Race> = [
     circuitName: "Bahrain International Circuit",
     date: "2024-03-02T09:00:00.000Z",
     country: countries.bahrain,
-    status: "completed",
+    status: "upcoming",
     result: {
       pole: null,
       first: null,
@@ -122,7 +122,7 @@ const baseRaces: Array<Race> = [
     circuitName: "Jeddah Corniche Circuit",
     date: "2024-03-09T09:00:00.000Z",
     country: countries.saudiArabia,
-    status: "completed",
+    status: "upcoming",
     result: {
       pole: null,
       first: null,
@@ -525,6 +525,13 @@ const races = baseRaces.map((race) => {
     return sheet[`D${offset + currentRow++}`]?.v ?? null;
   };
 
+  if (race.sprintRaceResult) {
+    updatedRace.sprintRaceResult = {
+      pole: getDriverId(getResult<DriverName>()),
+      first: getDriverId(getResult<DriverName>()),
+    };
+  }
+
   updatedRace.result = {
     pole: getDriverId(getResult<DriverName>()),
     first: getDriverId(getResult<DriverName>()),
@@ -535,13 +542,6 @@ const races = baseRaces.map((race) => {
 
   if (updatedRace.result.first) {
     updatedRace.status = "completed";
-  }
-
-  if (race.sprintRaceResult) {
-    updatedRace.sprintRaceResult = {
-      pole: getDriverId(getResult<DriverName>()),
-      first: getDriverId(getResult<DriverName>()),
-    };
   }
 
   columns.forEach((column, columnIndex) => {
@@ -555,11 +555,11 @@ const races = baseRaces.map((race) => {
 
     const weekendPredictions: WeekendPredictions = {
       racePrediction: {
-        pole: getDriverId(getPrediction<DriverName>()),
-        first: getDriverId(getPrediction<DriverName>()),
-        fastestPitStop: getTeamId(getPrediction<TeamName>()),
-        fastestLap: getDriverId(getPrediction<DriverName>()),
-        last: getDriverId(getPrediction<DriverName>()),
+        pole: null,
+        first: null,
+        fastestPitStop: null,
+        fastestLap: null,
+        last: null,
       },
     };
 
@@ -571,6 +571,14 @@ const races = baseRaces.map((race) => {
         first: getDriverId(getPrediction<DriverName>()),
       };
     }
+
+    weekendPredictions.racePrediction = {
+      pole: getDriverId(getPrediction<DriverName>()),
+      first: getDriverId(getPrediction<DriverName>()),
+      fastestPitStop: getTeamId(getPrediction<TeamName>()),
+      fastestLap: getDriverId(getPrediction<DriverName>()),
+      last: getDriverId(getPrediction<DriverName>()),
+    };
 
     if (players[columnIndex]) {
       players[columnIndex].predictions[race.id] = weekendPredictions;

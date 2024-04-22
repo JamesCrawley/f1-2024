@@ -67,15 +67,15 @@ export const races: Array<Race> = [
     circuitName: "Shanghai International Circuit",
     date: "2024-04-21T09:00:00.000Z",
     country: { id: "china", name: "China" },
-    status: "upcoming",
+    status: "completed",
     result: {
-      pole: null,
-      first: null,
-      fastestPitStop: null,
-      fastestLap: null,
-      last: null,
+      pole: "maxVerstappen",
+      first: "maxVerstappen",
+      fastestPitStop: "redBull",
+      fastestLap: "fernandoAlonso",
+      last: "loganSargeant",
     },
-    sprintRaceResult: { pole: null, first: null },
+    sprintRaceResult: { pole: "landoNorris", first: "maxVerstappen" },
   },
   {
     id: 6,
@@ -368,15 +368,3 @@ export const races: Array<Race> = [
     },
   },
 ];
-
-export const completedRaces = races.filter(
-  ({ status }) => status === "completed" || status === "cancelled",
-);
-
-export const upcomingRaces = races.filter(
-  ({ status }) => status === "upcoming",
-);
-
-export const inProgressRace = races.findLast(
-  ({ status }) => status === "inProgress",
-);
