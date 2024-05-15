@@ -1,3 +1,4 @@
+import { races } from "@/data/races";
 import type { Country } from "@/data/types";
 
 export const getOrdinal = (n: number): string => {
@@ -66,3 +67,15 @@ export const getCountryFlag = (id: Country["id"]): string => {
       return "🇦🇪";
   }
 };
+
+export const completedRaces = races.filter(
+  ({ status }) => status === "completed" || status === "cancelled",
+);
+
+export const upcomingRaces = races.filter(
+  ({ status }) => status === "upcoming",
+);
+
+export const inProgressRace = races.findLast(
+  ({ status }) => status === "inProgress",
+);

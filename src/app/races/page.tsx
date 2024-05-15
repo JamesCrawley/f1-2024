@@ -4,9 +4,13 @@ import type { FC, ReactNode } from "react";
 import { Divider, Stack, Typography } from "@mui/material";
 
 // import { RacesProgress } from "@/components/races-progress";
-import { completedRaces, inProgressRace, upcomingRaces } from "@/data/races";
 import type { Race } from "@/data/types";
-import { getCountryFlag } from "@/utils";
+import {
+  getCountryFlag,
+  completedRaces,
+  inProgressRace,
+  upcomingRaces,
+} from "@/utils";
 
 const RacesPage: FC = () => {
   return (

@@ -368,15 +368,3 @@ export const races: Array<Race> = [
     },
   },
 ];
-
-export const completedRaces = races.filter(
-  ({ status }) => status === "completed" || status === "cancelled",
-);
-
-export const upcomingRaces = races.filter(
-  ({ status }) => status === "upcoming",
-);
-
-export const inProgressRace = races.findLast(
-  ({ status }) => status === "inProgress",
-);
