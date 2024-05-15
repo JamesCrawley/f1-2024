@@ -21,9 +21,7 @@ export const Navbar: FC = () => {
           icon={<FormatListNumbered />}
           label="Leaderboard"
           value="/leaderboard"
-        >
-          hello
-        </BottomNavigationAction>
+        />
 
         <BottomNavigationAction
           icon={<CalendarMonth />}
