@@ -20,7 +20,7 @@ const LeaderboardPage: FC = () => {
     .toSorted((a, b) => (parseInt(a.points) < parseInt(b.points) ? 1 : -1));
 
   return (
-    <Stack height="100%">
+    <Stack height="100%" rowGap={2}>
       <Stack bgcolor="white" pt={2} px={2} rowGap={2}>
         <Typography mx="auto" py={0} variant="lg">
           Leaderboard
@@ -29,7 +29,7 @@ const LeaderboardPage: FC = () => {
         <Divider />
       </Stack>
 
-      <Stack overflow="auto" px={2}>
+      <Stack overflow="auto" px={2} rowGap={2}>
         {sortedGroupedPlayers.map(({ points, players }, position) => {
           const color =
             [colors.gold, colors.silver, colors.bronze][position] ?? "initial";
