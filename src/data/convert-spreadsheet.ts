@@ -14,7 +14,7 @@ import type {
 } from "./types";
 
 const {
-  Sheets: { Races: sheet },
+  Sheets: { Input: sheet },
 } = readFile("./F1 2024 Predictor.xlsx");
 
 type DriverName =
