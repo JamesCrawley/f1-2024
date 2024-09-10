@@ -4,7 +4,7 @@ export const players: Array<Player> = [
   {
     id: 1,
     name: "Aaron Robertson",
-    points: 155,
+    points: 200,
     predictions: {
       "1": {
         racePrediction: {
@@ -119,29 +119,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "landoNorris",
+          fastestPitStop: "redBull",
+          fastestLap: "georgeRussell",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "georgeRussell",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "oscarPiastri",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -233,7 +233,7 @@ export const players: Array<Player> = [
   {
     id: 2,
     name: "Alex Withero",
-    points: 145,
+    points: 185,
     predictions: {
       "1": {
         racePrediction: {
@@ -351,29 +351,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "carlosSainz",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "landoNorris",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "landoNorris",
+          fastestPitStop: "redBull",
+          fastestLap: "georgeRussell",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -465,7 +465,7 @@ export const players: Array<Player> = [
   {
     id: 3,
     name: "Cam Burgess",
-    points: 145,
+    points: 185,
     predictions: {
       "1": {
         racePrediction: {
@@ -580,29 +580,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "georgeRussell",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "landoNorris",
+          fastestPitStop: "ferrari",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "oscarPiastri",
+          first: "landoNorris",
+          fastestPitStop: "mclaren",
+          fastestLap: "georgeRussell",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -694,7 +694,7 @@ export const players: Array<Player> = [
   {
     id: 4,
     name: "Chloe Freer",
-    points: 155,
+    points: 190,
     predictions: {
       "1": {
         racePrediction: {
@@ -809,29 +809,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "landoNorris",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -923,7 +923,7 @@ export const players: Array<Player> = [
   {
     id: 5,
     name: "Harrison Reeve",
-    points: 155,
+    points: 190,
     predictions: {
       "1": {
         racePrediction: {
@@ -1038,29 +1038,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "lewisHamilton",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "landoNorris",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "lewisHamilton",
+          fastestPitStop: "mclaren",
+          fastestLap: "georgeRussell",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -1152,7 +1152,7 @@ export const players: Array<Player> = [
   {
     id: 6,
     name: "James Robinson",
-    points: 150,
+    points: 180,
     predictions: {
       "1": {
         racePrediction: {
@@ -1267,29 +1267,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "landoNorris",
+          fastestPitStop: "redBull",
+          fastestLap: "georgeRussell",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "oscarPiastri",
+          first: "maxVerstappen",
+          fastestPitStop: "mclaren",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -1381,7 +1381,7 @@ export const players: Array<Player> = [
   {
     id: 7,
     name: "James Crawley",
-    points: 155,
+    points: 175,
     predictions: {
       "1": {
         racePrediction: {
@@ -1496,29 +1496,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "oscarPiastri",
+          first: "lewisHamilton",
+          fastestPitStop: "ferrari",
+          fastestLap: "charlesLeclerc",
+          last: "valtteriBottas",
         },
       },
       "16": {
@@ -1610,7 +1610,7 @@ export const players: Array<Player> = [
   {
     id: 8,
     name: "El May",
-    points: 165,
+    points: 200,
     predictions: {
       "1": {
         racePrediction: {
@@ -1725,29 +1725,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "lewisHamilton",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "lewisHamilton",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "lewisHamilton",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -1839,7 +1839,7 @@ export const players: Array<Player> = [
   {
     id: 9,
     name: "Louie Cochrane",
-    points: 160,
+    points: 175,
     predictions: {
       "1": {
         racePrediction: {
@@ -1954,29 +1954,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "lewisHamilton",
+          fastestPitStop: "redBull",
+          fastestLap: "oscarPiastri",
+          last: "loganSargeant",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "landoNorris",
+          fastestPitStop: "mclaren",
+          fastestLap: "lewisHamilton",
+          last: "loganSargeant",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "lewisHamilton",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -2068,7 +2068,7 @@ export const players: Array<Player> = [
   {
     id: 10,
     name: "Luke Reeves",
-    points: 190,
+    points: 235,
     predictions: {
       "1": {
         racePrediction: {
@@ -2183,29 +2183,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -2297,7 +2297,7 @@ export const players: Array<Player> = [
   {
     id: 11,
     name: "Fin Tapp",
-    points: 170,
+    points: 190,
     predictions: {
       "1": {
         racePrediction: {
@@ -2412,29 +2412,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "landoNorris",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "loganSargeant",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "loganSargeant",
         },
       },
       "16": {
@@ -2526,7 +2526,7 @@ export const players: Array<Player> = [
   {
     id: 12,
     name: "Sam Cartledge",
-    points: 195,
+    points: 225,
     predictions: {
       "1": {
         racePrediction: {
@@ -2641,29 +2641,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "lewisHamilton",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -2755,7 +2755,7 @@ export const players: Array<Player> = [
   {
     id: 13,
     name: "Matt Hyett",
-    points: 145,
+    points: 165,
     predictions: {
       "1": {
         racePrediction: {
@@ -2870,29 +2870,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "lewisHamilton",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "georgeRussell",
+          first: "lewisHamilton",
+          fastestPitStop: "redBull",
+          fastestLap: "maxVerstappen",
+          last: "loganSargeant",
         },
       },
       "16": {
@@ -2984,7 +2984,7 @@ export const players: Array<Player> = [
   {
     id: 14,
     name: "Scott Benninson",
-    points: 155,
+    points: 175,
     predictions: {
       "1": {
         racePrediction: {
@@ -3099,29 +3099,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "landoNorris",
+          fastestPitStop: "mclaren",
+          fastestLap: "lewisHamilton",
+          last: "loganSargeant",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "landoNorris",
+          fastestPitStop: "redBull",
+          fastestLap: "oscarPiastri",
+          last: "loganSargeant",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "loganSargeant",
         },
       },
       "16": {
@@ -3213,7 +3213,7 @@ export const players: Array<Player> = [
   {
     id: 15,
     name: "Ollie McCann",
-    points: 120,
+    points: 135,
     predictions: {
       "1": {
         racePrediction: {
@@ -3328,29 +3328,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "ferrari",
+          fastestLap: "carlosSainz",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "lewisHamilton",
+          first: "landoNorris",
+          fastestPitStop: "mercedes",
+          fastestLap: "maxVerstappen",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "oscarPiastri",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "georgeRussell",
+          last: "nicoHulkenberg",
         },
       },
       "16": {
@@ -3442,7 +3442,7 @@ export const players: Array<Player> = [
   {
     id: 16,
     name: "Owen Millet",
-    points: 170,
+    points: 200,
     predictions: {
       "1": {
         racePrediction: {
@@ -3557,29 +3557,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "charlesLeclerc",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "mclaren",
+          fastestLap: "georgeRussell",
+          last: "zhouGuanyu",
         },
       },
       "16": {
@@ -3671,7 +3671,7 @@ export const players: Array<Player> = [
   {
     id: 17,
     name: "Matt Watson",
-    points: 160,
+    points: 185,
     predictions: {
       "1": {
         racePrediction: {
@@ -3789,29 +3789,29 @@ export const players: Array<Player> = [
       },
       "13": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "landoNorris",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "zhouGuanyu",
         },
       },
       "14": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "landoNorris",
+          last: "zhouGuanyu",
         },
       },
       "15": {
         racePrediction: {
-          pole: null,
-          first: null,
-          fastestPitStop: null,
-          fastestLap: null,
-          last: null,
+          pole: "maxVerstappen",
+          first: "maxVerstappen",
+          fastestPitStop: "redBull",
+          fastestLap: "oscarPiastri",
+          last: "loganSargeant",
         },
       },
       "16": {
