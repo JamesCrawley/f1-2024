@@ -32,6 +32,7 @@ type DriverName =
   | "Gasly"
   | "Albon"
   | "Sargeant"
+  | "Colapinto"
   | "Ricciardo"
   | "Tsunoda"
   | "Bottas"
@@ -58,6 +59,7 @@ const getDriverId = (
     Gasly: drivers.pierreGasly,
     Albon: drivers.alexanderAlbon,
     Sargeant: drivers.loganSargeant,
+    Colapinto: drivers.francoColapinto,
     Ricciardo: drivers.danielRicciardo,
     Tsunoda: drivers.yukiTsunoda,
     Bottas: drivers.valtteriBottas,

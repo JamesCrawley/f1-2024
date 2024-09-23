@@ -259,6 +259,12 @@ export const drivers = {
     // country: "",
     team: teams.williams,
   },
+  francoColapinto: {
+    id: "francoColapinto",
+    name: "Franco Colapinto",
+    // country: "",
+    team: teams.williams,
+  },
   estebanOcon: {
     id: "estebanOcon",
     name: "Esteban Ocon",
